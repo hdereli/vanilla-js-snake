@@ -1,0 +1,57 @@
+:root {
+  --borderColor: rgb(33, 57, 167);
+  --bgColor: white;
+}
+
+body {
+  background-color: lightgray;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.all-content {
+  display: grid;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container {
+  width: 600px;
+  height: 500px;
+  background-color: var(--bgColor);
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 10px solid var(--borderColor);
+}
+
+.main-canvas {
+  background-color: var(--bgColor);
+  width: 100%;
+  height: 100%;
+}
+
+.clear-button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: rgb(38, 255, 129);
+  color: rgb(16, 105, 53);
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid rgb(16, 105, 53);
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 3px #999;
+  margin-bottom: 10px;
+}
+
+.clear-button:hover {
+  background-color: rgb(165, 252, 201);
+}
+
+.clear-button:active {
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
