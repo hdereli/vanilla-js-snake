@@ -67,8 +67,6 @@ function move(key) {
   ctx.lineTo(x, y);
   // Draw Line
   ctx.stroke();
-
-  console.log(key);
 }
 
 function handleClear(e) {
